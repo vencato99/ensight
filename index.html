@@ -1,12 +1,650 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <!-- Metas -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="keywords" content="H" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!-- Title  -->
+    <title>Ensight Brasil</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Plugins -->
+    <link rel="stylesheet" href="css/plugins.css" />
+
+    <!-- Core Style Css -->
+    <link rel="stylesheet" href="css/style.css" />
+    
+    <style>
+        html {
+  scroll-behavior: smooth;
+}
+    </style>
+    
+    
+    
 </head>
+
 <body>
-    <h2>oi</h2>
+
+
+
+    <!-- ==================== Start Loading ==================== -->
+
+    <div id="preloader">
+    </div>
+
+    <!-- ==================== End Loading ==================== -->
+
+
+    <!-- ==================== Start progress-scroll-button ==================== -->
+
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+
+    <!-- ==================== End progress-scroll-button ==================== -->
+
+
+    <!-- ==================== Start cursor ==================== -->
+
+    <div class="mouse-cursor cursor-outer"></div>
+    <div class="mouse-cursor cursor-inner"></div>
+
+    <!-- ==================== End cursor ==================== -->
+
+
+
+    <!-- ==================== Start Navbar ==================== -->
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+
+            <!-- Logo -->
+            <a class="logo" href="/">
+                <img src="img/logo-light.png" alt="logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar"><i class="fas fa-bars"></i></span>
+            </button>
+
+            <!-- navbar links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/" role="button"
+                            aria-haspopup="true" aria-expanded="false">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" role="button"
+                            aria-haspopup="true" aria-expanded="false">Sobre nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#clients" role="button"
+                            aria-haspopup="true" aria-expanded="false">Clientes</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="/blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Fale conosco</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== End Navbar ==================== -->
+
+
+
+    <!-- ==================== Start Slider ==================== -->
+
+    <header class="slider slider-prlx">
+        <div class="swiper-container parallax-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="bg-img valign" data-background="https://i.imgur.com/c81zauj.jpg" data-overlay-dark="6">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="caption dig">
+                                        <h1 data-splitting>Nós fazemos <div class="tline">acontecer</div>
+                                        </h1>
+                                        <a href="#services" class="simple-btn mt-50">
+                                            <span>Veja Projetos</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="bg-img valign" data-background="https://i.imgur.com/nLJQL88.jpg" data-overlay-dark="6">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="caption dig">
+                                        <h1 data-splitting>Novidades <div class="tline">ensight</div>
+                                        </h1>
+                                        <a href="/blog" class="simple-btn mt-50">
+                                            <span>Veja Noticías</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="bg-img valign" data-background="https://i.imgur.com/3yXxMfC.jpg" data-overlay-dark="6">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="caption dig">
+                                        <h1 data-splitting>Soluções <div class="tline">Originais</div>
+                                        </h1>
+                                        <a href="#about" class="simple-btn mt-50">
+                                            <span>Saber Mais</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- slider setting -->
+            <div class="setone setwo">
+                <div class="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+                <div class="swiper-button-prev swiper-nav-ctrl prev-ctrl cursor-pointer">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+            </div>
+            <div class="swiper-pagination top botm custom-font"></div>
+
+            <div class="social-icon">
+                <a href="https://www.facebook.com/ensightbr" target="_blank"><i class="fab fa-facebook-f"></i></a>               
+                <a href="https://www.instagram.com/ensightbr/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/ensightbr/" target="_blank" ><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==================== End Slider ==================== -->
+
+    <div id="about" class="about section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="img-mons">
+                        <div class="row">
+                            <div class="col-md-5 cmd-padding valign">
+                                <div class="img1 wow imago" data-wow-delay=".5s">
+                                    <img src="https://i.imgur.com/uXvySaX.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-7 cmd-padding">
+                                <div class="img2 wow imago" data-wow-delay=".3s">
+                                    <img src="https://i.imgur.com/j5fOoFX.jpg" alt="">
+                                </div>
+                                <div class="img3 wow imago" data-wow-delay=".8s">
+                                    <img src="https://i.imgur.com/UUgweJB.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 offset-lg-1 valign">
+                    <div class="content">
+                        <div class="sub-title">
+                            <h6>Sobre Nós</h6>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <h3 class="main-title wow" data-splitting>Nós desafiamos <br> o óbvio.</h3>
+                        <p class="wow txt" data-splitting>Engajada com o mercado por meio de novas tecnologias e um design único, a ensight representa um novo ponto de vista sobre o impacto da tecnologia no mundo.</p>
+                        <div class="ftbox mt-30">
+                            <ul>
+                                <li class="wow fadeIn" data-wow-delay=".3s">
+                                    <span class="icon pe-7s-paint-bucket"></span>
+                                    <h6 class="custom-font">Branding &<br> UI/UX</h6>
+                                    <div class="dots">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </li>
+                                <li class="space wow fadeIn" data-wow-delay=".5s">
+                                    <span class="icon pe-7s-gleam"></span>
+                                    <h6 class="custom-font">Website &<br> Aplicativo</h6>
+                                    <div class="dots">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </li>
+                                <li class="wow fadeIn" data-wow-delay=".8s">
+                                    <span class="icon pe-7s-medal"></span>
+                                    <h6 class="custom-font">Mídias <br>Sociais</h6>
+                                    <div class="dots">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- ==================== Start works ==================== -->
+
+    <section id="services" class="portfolio section-padding pb-70">
+        <div class="container">
+            <div class="sec-head custom-font">
+                <h6>Serviços</h6>
+                <h3>Nossos trabalhos.</h3>
+                <span class="tbg text-right">Portfólio</span>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+
+                <!-- filter links -->
+                <div class="filtering text-center col-12">
+                    <div class="filter">
+                        <span data-filter='*' class="active">Todos</span>
+                        <span data-filter='.brand'>Branding</span>
+                        <span data-filter='.web'>Website</span>
+                        <span data-filter='.wordpress'>WordPress</span>
+                    </div>
+                </div>
+
+                <!-- gallery -->
+                <div class="gallery full-width">
+
+                    <!-- gallery item -->
+                    <div class="col-lg-4 col-md-6 items wordpress wow fadeInUp" data-wow-delay=".4s">
+                        <div class="item-img">
+                            <a href="https://octopus.art.br/" target="_blank" class="imago wow">
+                                <img src="https://i.imgur.com/Jg8aiEx.jpg" alt="image">
+                                <div class="item-img-overlay"></div>
+                            </a>
+                        </div>
+                        <div class="cont">
+                            <h6>Octopus</h6>
+                            <span><a href="#0">UI/UX</a>, <a href="#0">WordPress</a></span>
+                        </div>
+                    </div>
+
+                    <!-- gallery item -->
+                    <div class="col-lg-4 col-md-6 items web wordpress lg-mr wow fadeInUp" data-wow-delay=".4s">
+                        <div class="item-img">
+                            <a href="https://play9.com.br/" target="_blank" class="imago wow">
+                                <img src="https://i.imgur.com/w7WY4DY.jpg" alt="image">
+                                <div class="item-img-overlay"></div>
+                            </a>
+                        </div>
+                        <div class="cont">
+                            <h6>Play9</h6>
+                            <span><a href="#0">UI/UX</a>, <a href="#0">WordPress</a></span>
+                        </div>
+                    </div>
+
+                    <!-- gallery item -->
+                    <div class="col-lg-4 col-md-6 items brand web wow fadeInUp" data-wow-delay=".4s">
+                        <div class="item-img">
+                            <a href="https://fiter.com.br/" target="_blank" class="imago wow">
+                                <img src="https://i.imgur.com/Ch5utV9.jpeg" alt="image">
+                                <div class="item-img-overlay"></div>
+                            </a>
+                        </div>
+                        <div class="cont">
+                            <h6>Fiter</h6>
+                            <span><a href="#0">UI/UX</a>, <a href="#0">Website</a></span>
+                        </div>
+                    </div>
+
+                    <!-- gallery item -->
+                    <div class="col-lg-4 col-md-6 items brand wordpress wow fadeInUp" data-wow-delay=".4s">
+                        <div class="item-img">
+                            <a href="#" class="imago wow">
+                                <img src="https://i.imgur.com/4zTVt58.jpg" alt="image">
+                                <div class="item-img-overlay"></div>
+                            </a>
+                        </div>
+                        <div class="cont">
+                            <h6>Clarim</h6>
+                            <span><a href="#0">Branding</a>, <a href="#0">WordPress</a></span>
+                        </div>
+                    </div>
+
+
+
+                    <!-- gallery item -->
+                    <div class="col-lg-4 col-md-6 items web wordpress wow fadeInUp" data-wow-delay=".4s">
+                        <div class="item-img"> 
+                            <a href="https://harpio.com.br/" target="_blank" class="imago wow">
+                                <img src="https://i.imgur.com/U6UrhZg.jpg" alt="image">
+                                <div class="item-img-overlay"></div>
+                            </a>
+                        </div>
+                        <div class="cont">
+                            <h6>Harpio</h6>
+                            <span><a href="#0">UI/UX</a>, <a href="#0">WordPress</a></span>
+                        </div>
+                    </div>
+
+                    
+
+                    <!-- gallery item -->
+                    <div class="col-lg-4 col-md-6 items brand wordpress wow fadeInUp" data-wow-delay=".4s">
+                        <div class="item-img">
+                            <a href="http://unpopular.com.br/" target="_blank" class="imago wow">
+                                <img src="https://i.imgur.com/JvC3JsJ.jpg" alt="image">
+                                <div class="item-img-overlay"></div>
+                            </a>
+                        </div>
+                        <div class="cont">
+                            <h6>Unpopular</h6>
+                            <span><a href="#0">UI/UX</a>, <a href="#0">WordPress</a></span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 items brand wow fadeInUp" data-wow-delay=".4s">
+                        <div class="item-img">
+                            <a href="https://www.quantumengenharia.net.br/" target="_blank" class="imago wow">
+                                <img src="https://i.imgur.com/khPqekn.jpg" alt="image">
+                                <div class="item-img-overlay"></div>
+                            </a>
+                        </div>
+                        <div class="cont">
+                            <h6>Quantum</h6>
+                            <span><a href="#0">Branding</a> </span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== End works ==================== -->
+
+
+
+    <!-- ==================== Start clients Brands ==================== -->
+
+    <section id="clients" class="clients section-padding sub-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 valign">
+                    <div class="sec-head custom-font mb-0">
+                        <h6>Clientes</h6>
+                        <h3>Nossos <br> Parceiros.</h3>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div>
+                        <div class="row bord">
+                            <div class="col-md-3 col-6 brands">
+                                <div class="item wow fadeIn" data-wow-delay=".3s">
+                                    <div class="img">
+                                        <img src="img/clients/brands/01.png" alt="">
+                                        <a href="https://ricmais.com.br/" class="link" target="_blank" data-splitting>ricmais.com.br</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6 brands">
+                                <div class="item wow fadeIn" data-wow-delay=".6s">
+                                    <div class="img">
+                                        <img src="img/clients/brands/02.png" alt="">
+                                        <a href="https://www.incepa.com.br/" class="link" target="_blank" data-splitting>incepa.com.br</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6 brands">
+                                <div class="item wow fadeIn" data-wow-delay=".8s">
+                                    <div class="img">
+                                        <img src="img/clients/brands/03.png" alt="">
+                                        <a href="https://harpio.com.br" class="link" target="_blank" data-splitting>harpio.com.br</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6 brands">
+                                <div class="item wow fadeIn" data-wow-delay=".3s">
+                                    <div class="img">
+                                        <img src="img/clients/brands/04.png" alt="">
+                                        <a href="https://www.redemassa.com.br/" class="link" target="_blank" data-splitting>redemassa.com.br</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 col-6 brands">
+                                <div class="item wow fadeIn" data-wow-delay=".4s">
+                                    <div class="img">
+                                        <img src="img/clients/brands/05.png" alt="">
+                                        <a href="https://play9.com.br/" class="link" target="_blank" data-splitting>play9.com.br</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6 brands">
+                                <div class="item wow fadeIn" data-wow-delay=".7s">
+                                    <div class="img">
+                                        <img src="img/clients/brands/06.png" alt="">
+                                        <a href="https://www.positivotecnologia.com.br/" class="link" target="_blank" data-splitting>positivotecnologia.com.br</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6 brands">
+                                <div class="item wow fadeIn" data-wow-delay=".5s">
+                                    <div class="img">
+                                        <img src="img/clients/brands/07.png" alt="">
+                                        <a href="https://fiter.com.br/" class="link" target="_blank" data-splitting>fiter.com.br</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6 brands">
+                                <div class="item wow fadeIn" data-wow-delay=".3s">
+                                    <div class="img">
+                                        <img src="img/clients/brands/08.png" alt="">
+                                        <a href="http://conaje.com.br/" class="link" target="_blank" data-splitting>conaje.com.br</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== End clients Brands ==================== -->
+
+
+
+    <!-- ==================== Start call-to-action ==================== -->
+
+    <section class="call-action section-padding bg-img" data-background="img/pattern.png">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-lg-9">
+                    <div class="content sm-mb30">
+                        <h6 class="wow" data-splitting>Vamos conversar</h6>
+                        <h2 class="wow custom-font" data-splitting>sobre o <b>seu próximo projeto</b>.</h2>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3 valign">
+                    <a href="contact.html" class="btn-curve btn-lit"><span>Entrar em Contato</span></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== End call-to-action ==================== -->
+
+
+
+    <!-- ==================== Start Footer ==================== -->
+
+    <footer class="footer-half sub-bg section-padding pb-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="cont">
+                        <div class="logo">
+                            <a href="#0">
+                                <img src="img/logo-light.png" alt="">
+                            </a>
+                        </div>
+                        <div class="con-info custom-font">
+                            <ul>
+                                <li><span>Email : </span> hello@ensight.com.br</li>
+                                <li><span>Endereço : </span> Mauá, 1100 - Curitiba-PR.
+                                </li>
+                                <li><span>Telefone : </span> (41) 995556667</li>
+                            </ul>
+                        </div>
+                        <div class="social-icon">
+                            <h6 class="custom-font stit simple-btn">Segue lá</h6>
+                            <div class="social">
+                                <a href="https://www.facebook.com/ensightbr" target="_blank" class="icon">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/company/ensightbr/" target="_blank" class="icon">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="https://www.instagram.com/ensightbr/"  target="_blank" class="icon">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-2">
+                    <div class="subscribe mb-50">
+                        <h6 class="custom-font stit simple-btn">Newsletter</h6>
+                        <p>Se inscreva para receber novidades!</p>
+                        <form>
+                            <div class="form-group custom-font">
+                                <input type="email" name="subscribe" placeholder="Seu email">
+                                <button class="cursor-pointer">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="insta">
+                        <h6 class="custom-font stit simple-btn">Nosso Insta</h6>
+                        <div>
+                            <a href="https://www.instagram.com/ensightbr/" target="_blank"><p><i class="fab fa-instagram"></i> @ensightbr</p></a>
+                          <!--  <a href="https://www.instagram.com/p/B43GYp3gDVg/" target= "_blank">
+                                <img src="#" alt="">
+                            </a>
+                            <a href="https://www.instagram.com/p/B377Q1WHlAU/" target= "_blank">
+                                <img src="#" alt="">
+                            </a>
+                            <a href="https://www.instagram.com/p/B3ZurkxHhgo/" target="_blank">
+                                <img src="#" alt="">
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyrights text-center">
+                <p>2019-2021 © <a href="#">Ensight Brasil</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== End Footer ==================== -->
+
+
+
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+
+    <!-- plugins -->
+    <script src="js/plugins.js"></script>
+
+    <!-- custom scripts -->
+    <script src="js/scripts.js"></script>
+    
+                <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SPSGR8VLZX%22%3E</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SPSGR8VLZX');
+</script>
+    
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js%27);
+fbq('init', '288119216072001');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=288119216072001&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
 </body>
+
 </html>
